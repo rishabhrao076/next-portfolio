@@ -61,7 +61,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
             <section id="contact" className="snap-center">
                 <Contact pageInfo={pageInfo} />
             </section>
-            <footer className="sticky bottom-16 w-full filter grayscale hover:greyscale-0 flex justify-center z-20">
+            <footer className="sticky bottom-8 sm:bottom-16 w-full filter grayscale hover:greyscale-0 flex justify-center z-20">
                 <Link href="#hero">
                     <div className="rounded-full h-10 w-10 p-2 cursor-pointer bg-slate-400">
                         <ArrowUpIcon />
