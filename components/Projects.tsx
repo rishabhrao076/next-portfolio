@@ -45,7 +45,11 @@ function Projects({ projects }: Props) {
     return (
         <div className="h-screen relative flex flex-col justify-evenly text-left overflow-hidden md:flex-row max-w-full mx-auto items-center z-0">
             <h3 className="sectionHeading">Side Projects</h3>
-            <AnimatePresence initial={false} custom={direction}>
+            <AnimatePresence
+                initial={false}
+                custom={direction}
+                mode="popLayout"
+            >
                 <motion.div
                     key={projects[projectIndex]._id}
                     custom={direction}
