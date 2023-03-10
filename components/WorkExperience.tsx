@@ -10,7 +10,7 @@ function WorkExperience({ experiences }: Props) {
     return (
         <div className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center">
             <h3 className="sectionHeading">Experience</h3>
-            <div className="w-full flex space-x-5 p-10 max-h-[70vh] md:max-h-auto overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-thumb-rounded scrollbar-track-gray-400 scrollbar-thumb-white">
+            <div className="w-full flex space-x-5 mt-36 md:max-h-auto overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-thumb-rounded scrollbar-track-gray-400 scrollbar-thumb-white">
                 {experiences?.map((experience) => {
                     return (
                         <ExperienceCard
