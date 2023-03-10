@@ -54,8 +54,10 @@ function About({ pageInfo }: Props) {
                 }}
                 className="space-y-10 px-0 md:px-10"
             >
-                <h4 className="text-4xl font-semibold">About Me</h4>
-                <p className="text-xl">{pageInfo.backgroundInformation}</p>
+                <h4 className="text-3xl md:text-4xl font-semibold">About Me</h4>
+                <p className="text-lg md:text-xl">
+                    {pageInfo.backgroundInformation}
+                </p>
             </motion.div>
         </div>
     );
