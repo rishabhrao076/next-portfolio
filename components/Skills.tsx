@@ -11,7 +11,7 @@ function Skills({ skills }: Props) {
             <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
                 hover over a skill for confidence level
             </h3>
-            <div className="grid grid-cols-4 md:grid-cols-5 gap-5">
+            <div className="grid grid-cols-5 md:grid-cols-6 gap-5">
                 {skills?.slice(0, skills.length / 2).map((skill) => {
                     return (
                         <Skill
