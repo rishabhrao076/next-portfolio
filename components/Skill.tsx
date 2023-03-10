@@ -21,7 +21,7 @@ function Skill({ skill, directionLeft }: Props) {
                     x: 0,
                 }}
                 viewport={{ once: true }}
-                className="h-16 w-16 md:h-20 md:w-20 rounded-full bg-white p-3 flex flex-col justify-center"
+                className="h-10 w-10 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full bg-white p-3 flex flex-col justify-center"
             >
                 <img
                     className=""
@@ -29,7 +29,7 @@ function Skill({ skill, directionLeft }: Props) {
                     alt="tech-stack-image"
                 />
             </motion.div>
-            <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-16 w-16 md:w-20 md:h-20 rounded-full z-0">
+            <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-10 w-10 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full z-0">
                 <div className="flex items-center justify-center h-full">
                     <p className="text-3xl font-bold text-black opacity-100">
                         {skill.progress}
